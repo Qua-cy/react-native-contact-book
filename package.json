@@ -1,0 +1,30 @@
+{
+  "name": "react-native-contact-book",
+  "version": "1.0.0",
+  "description": "一个类似于微信通讯录插件，交互顺畅，拓展性高！",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "quacy",
+    "email": "592271044@qq.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Qua-cy/react-native-contact-book.git"
+  },
+  "peerDependencies": {
+    "react-native": "^0.41.2",
+    "react-native-windows": "0.41.0-rc.1"
+  },
+  "dependencies": {
+    "pinyin": "^2.10.2",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2"
+  }
+}
