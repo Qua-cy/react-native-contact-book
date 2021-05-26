@@ -1,6 +1,6 @@
 {
   "name": "react-native-contact-book",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个类似于微信通讯录插件，交互顺畅，拓展性高！",
   "main": "index.js",
   "scripts": {
