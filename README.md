@@ -88,5 +88,4 @@ export default function TestContactBookPlugin() {
 
   return <ContactBook {...options} />;
 }
-RNContactBook;
 ```
