@@ -6,7 +6,7 @@
 
 ## Props
 
-|         prop         |   type   |  default  |  desc  |
+|         props         |   type   |  default  |  desc  |
 | :-------: | :---: | :---: |  :------------:  |
 |     contactList      |  array   |    []     |  通讯录数据，必须有nickname  |
 |   headerComponent    |   node   |   null    |  用于传递顶部导航栏header  |
