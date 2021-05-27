@@ -1,10 +1,10 @@
 # react-native-contact-book
 
 
-<div style="display: flex; flex-wrap: wrap;">
-  <img src="src/assets/top_component.png" width="300" align="middle" />
-  <img src="src/assets/letter_side.png" width="300" align="middle" />
-  <img src="src/assets/letter_center.png" width="300" align="middle" />
+<div style="display: flex; flex-wrap: wrap; justify-content: center">
+  <img src="https://z3.ax1x.com/2021/05/27/2CTjA0.png" alt="1.png" width="250" margin-right="20" align="middle">
+  <img src="https://z3.ax1x.com/2021/05/27/2CTvNV.png" alt="2.png" width="250" margin-right="20" align="middle">
+  <img src="https://z3.ax1x.com/2021/05/27/2CTO7q.png" alt="3.png" width="250" margin-right="20" align="middle">
 </div>
 
 
