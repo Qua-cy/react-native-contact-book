@@ -42,7 +42,7 @@ or
 import React from 'react';
 import {View, Text, TouchableOpacity} from 'react-native';
 import Feather from 'react-native-vector-icons/Feather';
-import ContactBook from '@/component/ContactBook';
+import ContactBook from 'react-native-contact-book';
 import contactList from '@/assets/contactList.json';
 
 export default function TestContactBookPlugin() {
