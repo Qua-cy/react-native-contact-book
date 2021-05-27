@@ -1,8 +1,8 @@
 # react-native-contact-book
 
-<img src="src/assets/top_component.png"  style="zoom: 40%;" />
-<img src="src/assets/letter_side.png"  style="zoom: 40%;" />
-<img src="src/assets/letter_center.png"  style="zoom: 40%;" />
+<img src="src/assets/top_component.png" width="100" height="30" align="middle" />
+<img src="src/assets/letter_side.png" width="100" height="30" align="middle" />
+<img src="src/assets/letter_center.png" width="100" height="30" align="middle" />
 
 ## Props
 
