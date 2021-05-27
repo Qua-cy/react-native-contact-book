@@ -1,8 +1,8 @@
 # react-native-contact-book
 
-![top_component](src/assets/top_component.png "top_component")
-![letter_side](src/assets/letter_side.png "letter_side")
-![letter_center](src/assets/letter_center.png "letter_center")
+![top_component](src/assets/top_component.png "top_component"){:height="50%" width="50%"}
+![letter_side](src/assets/letter_side.png "letter_side"){:height="50%" width="50%"}
+![letter_center](src/assets/letter_center.png "letter_center"){:height="50%" width="50%"}
 
 ## Props
 
@@ -22,9 +22,9 @@
 |      itemStyle       |  object  |    {}     |  自定义通讯录项的样式  |
 |     onPressItem      | function |  ()=>{}   |  点击通讯录项事件  |
 
-## Usage
+## 用法
 
-### Step 1 - install
+### 步骤 1 - 安装
 
 `$ npm install react-native-contact-book --save`
 
@@ -32,7 +32,7 @@ or
 
 `$ yarn add react-native-contact-book`
 
-### Step 2 - import and use in project
+### 步骤 2 - 引入
 
 ```javascript
 import React from 'react';
@@ -88,4 +88,25 @@ export default function TestContactBookPlugin() {
 
   return <ContactBook {...options} />;
 }
+```
+
+## 注意
+
+传入的数据`contactList` 是array类型，列表项必须要有nickname，如果有头像则添加avatar，格式如下：
+```
+[
+  {
+    "nickname": "路飞",
+    "avatar": "https://z3.ax1x.com/2021/05/07/g123h6.jpg",
+    "id": "openid1"
+  },
+  {
+    "nickname": "钢铁侠",
+    "avatar": "https://z3.ax1x.com/2021/05/07/g121tx.jpg",
+    "id": "openid2"
+  },
+
+  ...
+
+]
 ```
