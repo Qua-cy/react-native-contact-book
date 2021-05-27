@@ -276,9 +276,8 @@ export default function ContactBook(props) {
         {dataList.map((item, index) => {
           if (letData.includes(item)) {
             return (
-              <View>
+              <View key={index}>
                 <Text
-                  key={index}
                   style={{
                     ...Styles.title,
                     ...titleStyle,
@@ -295,7 +294,7 @@ export default function ContactBook(props) {
               <TouchableOpacity
                 key={index}
                 style={{ ...Styles.item, ...itemStyle, height: itemHeight }}
-                onPress={onPressItem}
+                onPress={() => onPressItem(item)}
               >
                 {item.avatar && showAvatar && (
                   <Image

@@ -12,10 +12,10 @@
 
 |         props         |   type   |  default  |  desc  |
 | :-------: | :---: | :---: |  :------------:  |
-|     contactList      |  array   |    []     |  通讯录数据，必须有nickname  |
+|     contactList      |  array   |    []     |  通讯录数据，<font color="red">必须有nickname</font>  |
 |   headerComponent    |   node   |   null    |  用于传递顶部导航栏header  |
 |     topComponent     |   node   |   null    |  滚动列表头部扩展组件，要给定高度，否则影响滚动位置计算  |
-|  topComponentHeight  |  number  |     0     |  如果传了头部扩展组件，则必须传该组件的高度，用于计算  |
+|  topComponentHeight  |  number  |     0     |  如果传了头部扩展组件，<font color="red">则必须传该组件的高度</font>  |
 |     titleHeight      |  number  |    25     |  通讯录字母标题的高度  |
 |      itemHeight      |  number  |    60     |  通讯录项的高度  |
 |     letterHeight     |  number  |    20     |  侧边字母栏每个字母的高度  |
@@ -24,7 +24,7 @@
 |      showAvatar      | boolean  |   true    |  是否显示头像  |
 |      titleStyle      |  object  |    {}     |  自定义通讯录字母标题样式  |
 |      itemStyle       |  object  |    {}     |  自定义通讯录项的样式  |
-|     onPressItem      | function |  ()=>{}   |  点击通讯录项事件  |
+|     onPressItem      | function |  ()=>{}   |  点击通讯录项事件,返回item数据  |
 
 ## 用法
 
